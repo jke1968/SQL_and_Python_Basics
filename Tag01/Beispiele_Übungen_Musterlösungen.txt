@@ -1,0 +1,9 @@
+Grundbegriffe Datenbank: Produkt, Serverinstanz, logische Datenbank, Schema
+-> Skript Kapitel 1
+Select mit einer Tabelle, Group By
+-> Skript Kapitel 2
+Skalare Operatoren und Funktionen
+-> Skript Kapitel 3
+Select mit mehreren Tabellen: Inner Join, Left Outer Join, Right Outer Join 
+-> Skript Kapitel 5
+Übungen und Musterlösungen siehe Skript Kapitel 8/9
