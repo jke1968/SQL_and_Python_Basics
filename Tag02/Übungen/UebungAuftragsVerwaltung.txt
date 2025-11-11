@@ -1,0 +1,27 @@
+Übung Datenbank "Auftragsverwaltung"
+====================================
+
+Gesucht ist eine Datenbank zur Verwaltung von Aufträgen, Artikeln und Kundendaten. Die Datenbank soll folgende Zusammenhänge abbilden:
+
+- Ein Auftrag hat eine Nummer und ein Datum und beinhaltet mehrere Positionen
+- Eine Position gehört zu einem Auftrag und beinhaltet Artikelnr, Anzahl und Preis
+- Ein Artikel hat eine Bezeichnung und einen Preis
+- Ein Kunde hat einen Namen und einen Wohnort und kann mehrere Aufträge erteilen
+
+1) Erstellen Sie die passenden CREATE TABLE Statements nach obiger Spezifikation
+2) Erstellen Sie die notwendigen INSERT Statements, um 2 Kunden und 2 Artikel einzutragen
+3) Erstellen Sie weitere INSERT/UPDATE/DELETE Statements, um folgende Geschäftsvorfälle abzubilden
+   - ein Kunde erteilt 2 Aufträge in denen je zwei verschiedene Artikel bestellt werden
+   - der andere Kunde erteilt 3 Aufträge in denen je ein Artikel bestellt wird
+   - Alle Preise werden um 2,5 % verbilligt
+   - Der Kunde 'Maier' zieht von Hamburg nach Bremen um
+   - Die Preise für die Artikel mit den Nummern 111 und 122 erhöhen sich um je 50 Cent
+   - Der Artikel Nr. 112 wird aus den Sortiment genommen
+   - die letzte Änderung (Artikel entfernen) wurde irrtümlich veranlasst, bitte wieder rückgängig machen
+4) Erstellen Sie SELECT Statements zu folgenden Anforderungen:
+   - Zu jedem Auftrag den Namen des Kunden sowie Anzahl und Bezeichnung aller bestellten Artikel
+   - Die Gesamtsumme der bestellten Artikel pro Wohnort des Kunden
+   - Zu allen Aufträgen die seit dem 1.5.2009 erteilt worden sind, Auftragsnummer und -datum, Kundenname sowie die Auftragssumme  
+   - Alle Kunden mit Name und Adresse, die Artikel in deren Namen 'XYZ' (unabhängig von der Schreibweise) vorkommt
+   - Alle Artikel mit Nummer und Bezeichnung, die in keinem Auftrag bestellt worden sind
+   - Name und Preis des Artikels, der am häufigsten bestellt worden ist
