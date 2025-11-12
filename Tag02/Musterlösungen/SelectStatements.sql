@@ -18,11 +18,10 @@ from kunde left join auftrag on kunde.nr = auftrag.kundennr
 left join position on position.auftragnr = auftrag.nr
 group by kunde.adresse;
 
-select position.auftragnr, auftrag.datum, auftrag.kundennr,
-       sum (position.anzahl*artikel.preis)
+select position.auftragnr, auftrag.datum, auftrag.kundennr, sum(position.anzahl*artikel.preis)
 from position inner join artikel on position.artikelnr = artikel.nr
 inner join auftrag on position.auftragnr = auftrag.nr
-where auftrag.datum > '01.05.07'
+where auftrag.datum > '2010-03-08'
 group by position.auftragnr, auftrag.datum, auftrag.kundennr;
 
 select kunde.name, kunde.adresse
