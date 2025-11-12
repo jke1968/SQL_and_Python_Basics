@@ -25,5 +25,5 @@ UPDATE artikel SET preis = preis + 0.5 WHERE nr = 111 OR nr = 122;
 COMMIT;
 DELETE FROM artikel WHERE nr = 112;
 -- die letzte Änderung (Artikel entfernen) wurde irrtümlich veranlasst, 
--- bitte wieder r�ckg�ngig machen
+-- bitte wieder rückgängig machen
 ROLLBACK;

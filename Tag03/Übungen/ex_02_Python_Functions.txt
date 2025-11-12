@@ -1,0 +1,20 @@
+Übung 02 Functions
+==================
+
+Schreiben Sie ein Programm, das dem Benutzer folgendes Menü
+anbietet:
+
+Was wollen Sie tun ?
+====================
+
+1) Das Idealgewicht berechnen
+2) Euro in Dollar umrechnen
+3) Programm beenden
+
+Das Idealgewicht soll nach folgender Formel berechnet werden
+
+Für Männer: koerpergroesse in cm - 100
+Für Frauen: (koerpergroesse in cm - 100) * 0.8
+
+Das Menü soll solange angezeigt werden, bis der Benutzer '3'
+wählt. Für die Punkte 1 und 2 sollen jeweils eigene Funktionen definiert werden.

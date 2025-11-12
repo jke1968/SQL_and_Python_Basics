@@ -1,0 +1,11 @@
+Übung 01 Python Basissyntax
+===========================
+
+Schreiben Sie ein Python-Programm, das zwei Zahlen (Untergrenze und Obergrenze) vom Benutzer einliest und dann folgende Ausgaben erzeugt:
+
+1.) Alle Zahlen zwischen Unter- und Obergrenze
+2.) Alle Zahlen zwischen Ober- und Untergrenze
+3.) Alle geraden Zahlen zwischen Unter- und Obergrenze
+4.) Die Summe aller Zahlen zwischen Unter- und Obergrenze
+5.) Die Summe aller ungeraden Zahlen zwischen und Unter- und Obergrenze
+6.) Den Durchschnitt aller geraden Zahlen zwischen Unter- und Obergrenze
