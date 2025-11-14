@@ -1,0 +1,3 @@
+101;Ritchie;New York
+100;Codd;New York
+102;Van Rossum;Amsterdam

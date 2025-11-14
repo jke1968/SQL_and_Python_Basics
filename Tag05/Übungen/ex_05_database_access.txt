@@ -1,0 +1,13 @@
+Übung 05 Datenbankzugriff
+=========================
+
+Schreiben Sie ein Python-Programm, das folgendes Menü anbietet
+
+Was wollen Sie tun ?
+====================
+
+1) Alle Aufträge ausgeben
+2) Einen Auftrag erfassen
+3) Das Programm beenden
+
+Grundlage des Programms soll die "Auftragsverwaltung"-Datenbank sein.

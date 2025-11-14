@@ -1,0 +1,4 @@
+Übung 04 files and dictionaries
+===============================
+
+Schreiben Sie ein Python Programm, das ein Textfile einliest, in dem pro Zeile die Nummer, der Name und die Adresse einer Person steht. Der Inhalt des Files soll in eine list geschrieben werden, der Inhalt der List dann formatiert ausgegeben werden, wobei für jede Spalte eine fixe Breite reserviert werden soll.

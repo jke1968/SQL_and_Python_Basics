@@ -2,3 +2,4 @@
 =========================
 
 Schreiben Sie ein Python Programm, das einen Produktkatalog verwaltet. Ein Produkt hat eine Nr, eine Bezeichnung und einen Preis. Dem Benutzer sollen Optionen zum Anzeigen, Hinzufügen, Sortieren und Suchen von Produkten angeboten werden.
+
